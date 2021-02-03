@@ -28,7 +28,7 @@ The count plot has many unique values to show. This method shows the data a bit 
 
 It wouldn't be right to keep using the 'record_min_temp' column and not take a look at the actual lowest temperature.
 So using '.groupby()', '.min()', '.head()' we can see the rows of data for the five coldest temperatures, the year those minimum temperatures occurred and what cities as well.
-# Only Chicago and Indianapolis are the cities for these five coldest temperatures, with Chicago having three of the five. I will not be visiting either city in the winter.
+Only Chicago and Indianapolis are the cities for these five coldest temperatures, with Chicago having three of the five. I will not be visiting either city in the winter.
 
 Lastly, the final three code cells are needed to create the final visualization for this project. I wanted to try something I've never done before and I'm glad it worked out.
 Along with the previously imported packages for working with the data, there is one more we need for this visual - 'pandas_alive'.
