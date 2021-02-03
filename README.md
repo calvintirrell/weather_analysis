@@ -1,4 +1,3 @@
-Weather Analysis
 Weather data analysis using csv files provided by FiveThiryEight
 
 My first code cell starts off very normally as most projects might for data analytics and visualizations - importing the necessary packages to work with data.
