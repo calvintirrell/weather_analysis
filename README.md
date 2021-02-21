@@ -16,7 +16,6 @@ Using '.value_counts()' combined with '.head()' I'm able to see the five most co
 
 It wouldn't be right to keep using the 'record_min_temp' column and not take a look at the actual lowest temperature. So using '.groupby()', '.min()', '.head()' we can see the rows of data for the five coldest temperatures, the year those minimum temperatures occurred and what cities as well. Only Chicago and Indianapolis are the cities for these five coldest temperatures, with Chicago having three of the five. I will not be visiting either city in the winter.
 
-Only Chicago and Indianapolis are the cities for these five coldest temperatures, with Chicago having three of the five. I will not be visiting either city in the winter.
 Lastly, the final three code cells are needed to create the final visualization for this project. I wanted to try something I've never done before and I'm glad it worked out. Along with the previously imported packages for working with the data, there is one more we need for this visual - 'pandas_alive'. Next we use '.pivot()' on the weather_df dataframe and specify the index, column(s) and values and then we show what the result of the pivot is on our weather_df dataframe.
 
 The final code cell is where the magic happens for making the final visual. Please read the comments in the last code cell as they have useful information regarding either making your own version of this visual or why I commented out the code in this cell (hint: the code takes a while to run and create the final visual).
