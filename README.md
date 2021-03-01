@@ -1,5 +1,8 @@
 Weather data analysis using csv files provided by FiveThiryEight
 
+If the 'weather_analysis.ipynb' file doesn't load, please use the following link to view the code and visuals:
+[weather_analysis.ipynb](https://nbviewer.jupyter.org/github/calvintirrell/weather_analysis/blob/main/weather_analysis.ipynb)
+
 My first code cell starts off very normally as most projects might for data analytics and visualizations - importing the necessary packages to work with data.
 
 The second code cell is an interesting one. My initial process for loading all the data was to simply manually write out the code to create a dataframe from a csv file but for all 10 files. Not very efficient. The code in the second cell is a modified and trimmed down version of a previous Python script I had made and does everything needed in a more programmatic way. Each line of code in the second cell has a comment above it that explains what the line of code does or is used for in the process of creating a single large dataframe.
